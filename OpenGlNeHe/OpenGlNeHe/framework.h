@@ -1,0 +1,30 @@
+// header.h : include file for standard system include files,
+// or project specific include files
+//
+
+#pragma once
+#ifndef _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
+#include "targetver.h"
+#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+// Windows Header Files
+#include <windows.h>
+// C RunTime Header Files
+#include <stdlib.h>
+#include <malloc.h>
+#include <memory.h>
+#include <tchar.h>
+
+#pragma comment(lib,"GLFiles/lib/Glaux.lib")
+#pragma comment(lib,"GLFiles/lib/GLU32.lib")
+#pragma comment(lib,"GLFiles/lib/glui32.lib")
+#pragma comment(lib,"GLFiles/lib/glut32.lib")
+#pragma comment(lib,"GLFiles/lib/OPENGL32.lib")
+
+#include "GLFiles/include/GL/GL.H"
+#include "GLFiles/include/GL/GLAux.h"
+#include "GLFiles/include/GL/GLU.H"
+#include "GLFiles/include/GL/glui.h"
+#include "GLFiles/include/GL/glut.h"
